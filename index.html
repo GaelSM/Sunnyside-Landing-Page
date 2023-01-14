@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header>
+
+    <div class="mobile__menu">
+      <p>About</p>
+      <p>Services</p>
+      <p>Projects</p>
+      <button>Contact</button>
+    </div>
+
+    <div class="header__content">
+      <div class="header__content__head">
+        <img src="./images/logo.svg" alt="Sunnyside Logo">
+        <img src="./images/icon-hamburger.svg" alt="" id="menu__icon">
+        <div class="desktop__menu">
+          <p>About</p>
+          <p>Services</p>
+          <p>Projects</p>
+          <button>Contact</button>
+        </div>
+      </div>
+      <div class="header__content__content">
+        <h1>We are creatives</h1>
+        <div class="arrow-down">
+          <img src="./images/icon-arrow-down.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>  
+    <div class="topics">
+      <div class="transform-image">
+        <picture>
+          <source media="(min-width: 800px)" srcset="./images/desktop/image-transform.jpg">
+          <img src="./images/mobile/image-transform.jpg" alt="Orange">
+        </picture>
+      </div>
+      <div class="text text1">
+        <h2>Transform your brand</h2>
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast.
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+        <h3 class="learn1">Learn more</h3>
+      </div>
+
+      <div class="standout-image">
+        <picture>
+          <source media="(min-width: 800px)" srcset="./images/desktop/image-stand-out.jpg">
+          <img src="./images/mobile/image-stand-out.jpg" alt="">
+        </picture>
+      </div>
+      <div class="text text2">
+        <h2>Stand out to the right audience</h2>
+        <p>Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+        <h3 class="learn2">Learn more</h3>
+      </div>
+
+      <div class="design-image absolute">
+        <div class="absolute__text">
+          <h2>Graphic Design</h2>
+          <p>Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+      </div>
+
+      <div class="photography-image absolute">
+        <div class="absolute__text">
+          <h2>Photography</h2>
+          <p>Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- TESTIMONIALS -->
+    <div class="testimonials">
+      <h2>Client testimonials</h2>
+
+      <div class="testimonial__content">
+        <div class="testimonial">
+          <div class="testimonial__image">
+            <img src="./images/image-emily.jpg" alt="">
+          </div>
+          <p>We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+          <div class="testimonial__info">
+            <h3>Emily R.</h3>
+            <p>Marketing Director</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__image">
+            <img src="./images/image-thomas.jpg" alt="">
+          </div>
+          <p>Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+          <div class="testimonial__info">
+            <h3>Thomas S.</h3>
+            <p>Chief Operating Officer</p>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__image">
+            <img src="./images/image-jennie.jpg" alt="">
+          </div>
+          <p>Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+          <div class="testimonial__info">
+            <h3>Jennie F.</h3>
+            <p>Business Owner</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="gallery">
+      <picture>
+        <source media="(min-width: 800px)" srcset="./images/desktop/image-gallery-milkbottles.jpg">
+        <img src="./images/mobile/image-gallery-milkbottles.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 800px)" srcset="./images/desktop/image-gallery-orange.jpg">
+        <img src="./images/mobile/image-gallery-orange.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 800px)" srcset="./images/desktop/image-gallery-cone.jpg">
+        <img src="./images/mobile/image-gallery-cone.jpg" alt="">
+      </picture>
+      <picture>
+        <source media="(min-width: 800px)" srcset="./images/desktop/image-gallery-sugarcubes.jpg">
+        <img src="./images/mobile/image-gallery-sugar-cubes.jpg" alt="">
+      </picture>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer__logo">
+      <img src="./images/logo-green.svg" alt="">
+    </div>
+    <div class="footer__menu">
+      <p>About</p>
+      <p>Services</p>
+      <p>Projects</p>
+    </div>
+    <div class="social">
+      <i class="fa-brands fa-square-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest"></i>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
